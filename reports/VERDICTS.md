@@ -49,3 +49,60 @@ ACU-0078, and rated the Inquisition volume 8 points for ACU-0047. Both pass
 any title-similarity test, because the words genuinely are in the text. Only
 reading the opening distinguishes an edition of a work from a study about it,
 or from an unrelated book that shares a phrase.
+
+## Batch 3 post-mortem and batch 4
+
+### Why half of batch 3 returned near-empty files
+
+Pages like `cy:Mabinogion J M Edwards Cyf 2/Hanes Taliesin` are **transclusion
+wrappers**, not text:
+
+```
+<pages index="Mabinogion - (o Lyfr coch Hergest) (IA mabinogionolyfrc00edwa).pdf" from=103 to=112/>
+```
+
+The text lives in the Page: namespace of a scanned PDF and is only assembled
+when the server renders the page. `action=raw` returns the wrapper, which is
+why ACU-0078 saved 172 chars, ACU-0475 82 chars, ACU-0368 245 and ACU-0312 206.
+The fix is `action=parse&prop=text` (server-side expansion), or — better where
+possible — fetch the source scan the wrapper names.
+
+### Resolved without Wikisource
+
+| ACU | Work | Route | Evidence |
+|---|---|---|---|
+| ACU-0078 | Hanes Taliesin | `mabinogionolyfrc00edwa` | The wrapper named its own source scan. Edwards 1890, Welsh, 118pp; Ceridwen and Tegid Foel both present in the text layer |
+| ACU-0176 | Du Mantel mautaillié | `recueilgnral03montuoft` | Montaiglon & Raynaud t. III: contents line 57 `DU MANTEL MAUTAILLIÉ`, text at p. 72. Volumes 1,2,4,5 have zero hits; vol 6 only cites it in notes |
+
+### Already covered by Skene vol. 2 (already in Drive) — no download needed
+
+Found by searching Skene's own medieval orthography, not modern Welsh:
+
+| ACU | Work | Skene's spelling | Location |
+|---|---|---|---|
+| ACU-0050 | Y Gododdin | `E Gododin. Aneirin ae Cant` | contents 355, text 4122ff |
+| ACU-0051 | Pa Gur | `Pa gur yv y porthaur` | fol. 47b, line 3574 |
+| ACU-0052 | Preiddeu Annwn | `preideu annwfyn` | line 10290 |
+| ACU-0053 | Englynion y Beddau | `Englynnionn y Bedev` | contents XIX, text 2422 |
+| ACU-0064 | Cyfoesi Myrddin a Gwenddydd | `Kyuoessi Myrdin a Gwendyd y chwaer` | contents 800, text p.218ff |
+
+### Confirmed NOT in Skene vol. 2 — still open
+
+ACU-0065 (Gwasgargerdd), ACU-0066 (Afallenau), ACU-0067 (Hoianau). All three
+appear only in Skene's notes and index. The index entry
+`Apple-trees (the Avallenau), i. 370` points to **volume 1**, which is the
+English translation, not the Welsh. Welsh texts for these three need the
+Myvyrian Archaiology or a Black Book / Red Book edition.
+
+### Confirmed absent from archive.org
+
+ACU-0257 Sir Landevale · ACU-0342 Sir Corneus · ACU-0357 Swinburne, Queen
+Yseult · ACU-0374 Hawker, Quest of the Sangraal · ACU-0475 Cantare di
+Gismirante (Wikisource is its only route) · ACU-0380 Hardy, Queen of
+Cornwall (borrow-only `bwb_` scans only).
+
+### Welsh Wikisource genuinely lacks
+
+Pa Gur, Ymddiddan Myrddin a Thaliesin, Afallennau, Oianau, Trioedd Ynys
+Prydein, Cyfoesi, Gwasgargerdd, Ystorya Trystan, Pedwar Marchog, Culhwch ac
+Olwen. These returned "no such page", not a fetch error.
