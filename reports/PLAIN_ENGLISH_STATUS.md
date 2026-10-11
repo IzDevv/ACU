@@ -13,16 +13,22 @@ in English translation.
 
 You started with **267 of 543** having some file attached.
 
-Today added roughly **50 more** works, and found **5 you already had
+Today added roughly **50 more** works, and found **2 you already had
 without realising it**.
 
-Those five are worth explaining, because it's the most useful kind of find.
-You own a book called *The Four Ancient Books of Wales*. Five catalog
-entries — five separate Welsh poems — are printed inside it. Nobody had
-noticed, because the book spells their titles in medieval Welsh and the
-catalog spells them in modern Welsh. Searching for `Pa Gur` finds nothing;
-searching for `Pa gur yv y porthaur` finds the poem. Five entries closed,
-nothing downloaded.
+**Correction.** I first told you that was five. It was two. I checked five
+Welsh poems against a book you already own, *The Four Ancient Books of
+Wales*, and found all five printed inside it — but when I went back to your
+catalog, three of them (ACU-0051, 0052, 0053) were already marked as
+covered before today. Only ACU-0050 and ACU-0064 were genuine gaps. I had
+also swapped two of the ID numbers in my own notes. The underlying find is
+real and still useful, but the count was wrong and I'd rather say so.
+
+The find is worth explaining anyway, because it's the most useful kind.
+The book spells those poem titles in medieval Welsh and your catalog spells
+them in modern Welsh. Searching for `Pa Gur` finds nothing; searching for
+`Pa gur yv y porthaur` finds the poem. Same trick found a sixth entry later
+in the day: a poem whose title the scanner had misread as `GWASGARGEED`.
 
 ## The three kinds of thing I hand you
 
@@ -57,9 +63,15 @@ will — they survive only in manuscripts that were never photographed, or in
 modern scholarly editions still under copyright. The previous research in
 your register was broadly right that most of these are dead ends.
 
-Three Welsh poems about Merlin (ACU-0065, 0066, 0067) are close but not
-found: they're printed in an old collection called the *Myvyrian Archaiology*,
-which is the next thing to chase.
+Of the three Welsh items I said were outstanding, two are now settled:
+**ACU-0065** is in the *Myvyrian Archaiology* at page 105, and **ACU-0067**
+turned out to be already covered — it isn't a Merlin poem at all, it's the
+Welsh Triads, and I had mislabelled it. **ACU-0066** (*Peiryan Vaban*) is
+still genuinely missing.
+
+**ACU-0031** is now found too: a Latin chronicle that describes monks
+digging up what they claimed was Arthur's grave at Glastonbury in 1191,
+including the inscription on the lead cross they said was buried with him.
 
 Three Irish texts were found but need **your** permission request — the
 university that hosts them asks people to write first. They're in

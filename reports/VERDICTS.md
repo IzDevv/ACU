@@ -123,3 +123,41 @@ VERIFY, plus two whose text layer came back at 0.0 MB:
 Incidental find: Gale vol 2 contains the 1278 Glastonbury exhumation —
 "apud Glaftoniam, & ibi Dominus Rex tumbam Regis Arthuri" — which may serve
 ACU-0031 (Chronicon, Glastonbury exhumation entry), currently unresolved.
+
+## CORRECTION to the "already covered by Skene" claim
+
+I earlier reported five entries (ACU-0050, 0051, 0052, 0053, 0064) as closed
+by the Skene volume already held. Checking those IDs against the catalog:
+
+| ACU | Actual catalog title | Status BEFORE today | Was my find new? |
+|---|---|---|---|
+| ACU-0050 | Y Gododdin (Arthur stanza) | Searched Archive; no candidate | **yes** |
+| ACU-0051 | Preiddeu Annwn | Original-language source downloaded | no — already covered |
+| ACU-0052 | Pa gur yv y porthaur? | Original-language source downloaded | no — already covered |
+| ACU-0053 | Englynion y Beddau | Original-language source downloaded | no — already covered |
+| ACU-0064 | Cyfoesi Myrddin a Gwenddydd | Translation downloaded; original sought | **yes** — supplies the Welsh |
+
+So two genuine, not five. I also had ACU-0051 and ACU-0052 **swapped** in my
+own notes (0051 is Preiddeu Annwn, 0052 is Pa gur).
+
+Two further ID errors in the batch 3 probe list, which mean those probes
+searched for the wrong works entirely:
+
+- **ACU-0066 is *Peiryan Vaban***, not "Afallennau" as I labelled it.
+- **ACU-0067 is *Trioedd Ynys Prydein* (the Welsh Triads)**, not "Oianau",
+  and it was already marked covered before today.
+
+The "no such page" results recorded against those two IDs therefore say
+nothing about them.
+
+## New, verified
+
+| ACU | Work | Source | Evidence |
+|---|---|---|---|
+| ACU-0031 | Chronicon (Glastonbury exhumation), Ralph of Coggeshall | `ChroniconAnglicanum` (Rolls Series 1875, Latin) | Chapter heading "Quomodo ossa regis Arturi reperta sunt"; text "inventa sunt apud Glastingeberiam ossa famosissimi Arturi, quondam regis Britanniae ... crux plumbea superposita fuerat, in qua ita exaratum erat, 'Hic jacet inclitus rex Arturius, in insula Avallonis sepultus'". Index: "Arthur, king ... his bones found at Glastonbury, 36" |
+| ACU-0065 | Gwasgargerdd Fyrddin yn y Bedd | `myvyrianarchaiol00joneuoft` (Myvyrian Archaiology, 1870, wel+eng, 1302pp) | Running head "GWASGARGEED ...RD1X YN Y VED. 105" — OCR mangling of GWASGARGERDD MYRDDIN YN Y BEDD. A plain search for "Gwasgargerdd" returns zero, which is why earlier passes missed it. Same volume carries "AFALLENAU MYRDDIN" p.115 (with verse text) and "HOIANAU NEU BORCHELLANAU MYRDDIN AP MORFRYN" p.106 |
+
+## Still genuinely missing
+
+ACU-0066 *Peiryan Vaban* — no hits in the Myvyrian ("Peirian" matches there
+are `peiriant`/`peiriannau`, meaning engine or contrivance, unrelated).
