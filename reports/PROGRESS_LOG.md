@@ -33,3 +33,30 @@ WebSearch (which does work) with domain-restricted queries, to recover exact
 landing-page URLs and bibliographic detail for standard editions. Leads are
 recorded with the search evidence that supports them. Cost/expenditure is not
 exposed to me by this platform, so I report no spend figure.
+
+## Searches run (20 total, all WebSearch, all domain-restricted unless noted)
+
+Productive: Mabinogion/Red Book; Rees Cambro British Saints; Gildas/MGH;
+Layamon/Madden; Marie de France/Warnke (x2); Percy Folio; Scalacronica;
+Scotichronicon; prose Brut/Brie; Holinshed; SGGK/Morris; Hucher Saint-Graal;
+Tristán de Leonís/Bonilla; Keller Fastnachtspiele; Skene Four Ancient Books;
+Jaufre/Brunel; PMH Scriptores.
+
+Unproductive (recorded as failed routes): Romania vol. 8 (Gaston Paris, Lais
+inédits); Bédier Folie Tristan SATF 1907; Furnivall EETS *Arthur* (Liber
+Rubeus Bathoniae); Kluge Prosa-Lancelot DTM; Magne *Demanda do Santo Graal*;
+Méon contents for La Mule sans frein (no evidence either way).
+
+## Resumption point
+
+If network access is opened, resume at `reports/MANUAL_DOWNLOAD_QUEUE.md`
+Tier 1, then Tier 2, verifying each against the "limitations" column of
+`reports/FINDINGS.csv`.
+
+If network stays closed, the highest-value remaining work needs no network:
+audit the 233 partially-covered entries against the local files, which were
+absent from this checkout.
+
+Unsearched priority entries, for the next session (prior metadata candidate,
+no new lead yet, public-domain edition likely): ACU-0291, 0289, 0303, 0310,
+0312, 0313, 0348, 0373, 0245, 0246.
