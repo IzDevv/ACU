@@ -135,3 +135,82 @@ searches and no downloads, which is a small fraction of a $100 ceiling.
 - `reports/REMAINING_WORK.md` — the six categories you asked for
 - `reports/PROGRESS_LOG.md` — constraints, method, resumption point
 - `ACQUISITION_INDEX.md`, `RESEARCH_REGISTER.md` — your documents, unmodified
+
+---
+
+# UPDATE — network access opened mid-session
+
+The environment's network policy was changed while this session was running,
+so the acquisition described above as impossible was then carried out. The
+counts in the original report ("0 verified downloads") are superseded by
+this section; the research and queue-building above still stand.
+
+## Reachability after the change
+
+`archive.org` 200 · `gutenberg.org` 200 · `wikisource` 301 · `celt.ucc.ie` 200
+· `gallica.bnf.fr` **403** (still blocked, or blocking us — not investigated)
+
+## Verified downloads: 21 works
+
+Each was downloaded with its sha1 checked against archive.org's own metadata,
+then verified by searching its text layer for the works it should contain —
+not by trusting the catalogue record. See `reports/ACQUIRED.md` for the list
+and `reports/download_log.jsonl` for per-item evidence.
+
+### Translation-only entries that now have their original language
+
+- **ACU-0071–0077** — Rhys & Evans 1887, Red Book of Hergest, 402 pp.
+  All seven Welsh tales found in the text: Kulhwch, Olwen, Peredur, Gereint,
+  Maxen, Llevelys, Ronabwy.
+- **ACU-0007, 0008, 0009, 0014** — Rees 1853, 700 pp. *Vita Cadoci*,
+  *Carantoci*, *Paterni*, *Iltuti* all present.
+- **ACU-0172, 0173, 0174** — Warnke 1925. Lanval, Chievrefoil, Guigemar,
+  Bisclavret, Yonec, Chaitivel all present.
+- **ACU-0001** — Gildas, twice over: Williams 1899 (Latin + English) and
+  Mommsen's MGH critical text, which also serves **ACU-0003**.
+- **ACU-0240** — Layamon, Madden 1847 vols 1 and 3.
+- **ACU-0064** — Skene vol. 2. Nearly filed as missing: Skene spells it
+  `Kyuoessi Myrdin a Gwendyd y chOaer`, so a modern-orthography search
+  returns nothing. Poem text at p. 218ff in the Red Book section.
+
+### Entries with first coverage
+
+ACU-0129 (Scalacronica), 0146 (Hucher), 0179 (Guingamor + Tydorel),
+0213 (Jaufre t. II), 0249 (prose Brut), 0259 (SGGK Morris),
+0274/0275/0277/0279 (Percy Folio — *Sir Lionel* is present after all,
+contrary to the doubt recorded earlier), 0305 (Holinshed),
+0388 (Weston — exact title match), 0511-or-0515 (Bonilla's 1501 Tristán).
+
+## Still open
+
+- **ACU-0065** — `Gwasgargerdd` occurs in Skene vol. 2 only in editorial
+  notes (st. 17 reference, and an etymological gloss). The poem itself is
+  not printed there. Unresolved.
+- **ACU-0423** — Keller 1853 downloaded (508 pp.) but "Fastnachtspiel",
+  "Engellant" and "Artus" are all absent from the text layer. The Arthurian
+  play is probably in another volume. Do not count this as covered.
+- **ACU-0055, 0190, 0519** — downloaded, contents unconfirmed.
+- **ACU-0506** — identity still unresolved; not downloaded.
+
+## Source-side problems found
+
+- `scalacronica00mait`: every derivative returns **HTTP 500** (PDF and text
+  layer alike). Substituted `scalacronica00unkngoog`, same Stevenson 1836
+  edition, 456 pp.
+- `mariedefrancelaiswarnketroed`: PDF is **257 MB** and times out on a short
+  deadline. Allow for it.
+
+## Delivery
+
+The session container is ephemeral, so the files do not survive it. Two
+reproductions, both tested end to end including resume behaviour:
+
+- `fetch_sources.sh` — runs locally, writes into `<work_slug>/` folders
+  matching the existing collection layout.
+- `ACU_fetch_sources.ipynb` — uploaded to the user's Google Drive; Colab
+  mounts Drive and downloads on Google's servers. Each entry carries its
+  verification status (VERIFIED / WEAK / DOUBTFUL) inline.
+
+Direct upload of the files through the Drive connector was rejected as
+unworkable: `create_file` takes content as a base64 tool parameter, which
+would mean emitting ~6M tokens for a single 17 MB PDF.
