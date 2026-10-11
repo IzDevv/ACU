@@ -161,3 +161,31 @@ nothing about them.
 
 ACU-0066 *Peiryan Vaban* — no hits in the Myvyrian ("Peirian" matches there
 are `peiriant`/`peiriannau`, meaning engine or contrivance, unrelated).
+
+## Widening beyond archive.org — what each source actually did
+
+Prompted to cast a wider net. Results, honestly:
+
+| Source | Outcome |
+|---|---|
+| **dbnl.org** (Dutch) | **Works, with a trick.** Default headers get 403; a full browser header set gets 200 on title and text pages. Its *search* endpoint stays 403, so discovery has to go through WebSearch and retrieval through curl. Yielded ACU-0438 |
+| **archive.org** (re-queried in Dutch) | **Works.** The earlier passes searched English titles only. Querying Dutch editors and titles found the Lancelot Compilation and the Steinfort Merlijn, which three entries needed |
+| **Google Books** | **Dead end from here.** `books.google.com` is reachable but the API returns `429 Quota exceeded ... Queries per day` — the shared cloud IP's daily allowance is spent. Needs an API key. May work from Colab |
+| **TEAMS / d.lib.rochester.edu** | **Blocked.** Cloudflare interstitial ("Just a moment...") on every content path, with full browser headers. Needs a real browser. This is a real loss — TEAMS publishes free editions of many Middle English Arthurian romances |
+| **WebFetch** | **Unavailable.** `getaddrinfo ENOTFOUND` on every host, even ones curl reaches |
+| **archive.org full-text search** | **Unavailable.** `ia-fts.archive.org` and `ia-pub-fts-api.archive.org` both 502 through this proxy. This is the biggest methodological gap: it would find short works printed inside anthologies, which is where much of the remaining 200 probably sits |
+| Reachable but untried | runeberg.org, heimskringla.no (Norse), mdz-nbn-resolving.de (German), arlima.net (bibliography), persee.fr, deutschestextarchiv.de, hs-augsburg.de, dmgh.de |
+| Blocked | bdh.bne.es (403), europeana.eu (403), zeno.org, openlibrary.org, bibliotecaitaliana.it, corpuscorporum.org, gallica.bnf.fr (403), quod.lib.umich.edu (403) |
+
+## Middle Dutch results
+
+| ACU | Work | Source | Evidence |
+|---|---|---|---|
+| ACU-0438 | Wrake van Ragisel | dbnl.org PDF, ed. M. Gysseling | Text extracted and read: line-numbered Middle Dutch verse, "her walewain" present. **Copyright caution**: 1998 CD-ROM edition; DBNL warns works under 140 years old may be protected |
+| ACU-0439 | Perchevael | `romanvanlancelo01joncgoog` | Jonckbloet 1846, 404pp, PD. 59 `Perchevael`, 54 `Moriaen`, 826 `Lanceloet`, 950 `Walewein` |
+| ACU-0442 | Historie vanden Grale and Merlijn | `merlijnnaarhete00robegoog` | Steinfort MS, 1880, 430pp, PD. 82 `Merlijn`, 74 `Merline`, 25 `Grale`, 35 `Maerlant` |
+| ACU-0443 | Merlijn continuation (Boec van coninc Artur) | `merlijnnaarhete00robegoog` | Same volume; 7 `Velthem` — the Steinfort MS carries Velthem's continuation after Maerlant |
+
+Still open in this language group: ACU-0431 (Lantsloot — DBNL states the 1987
+Gerritsen edition is copyright-protected and only scans exist), ACU-0445,
+ACU-0446, ACU-0447.
