@@ -392,3 +392,28 @@ I had been collapsing all five into category 3. Category 1 in particular is
 not a dead end: it needs a browser, not a library card. The size of each
 category has not been measured, and claiming one without measuring it is
 what produced the original error.
+
+## Two more that were never actually missing
+
+Persée blocks Colab as well as this container, so ACU-0169 and ACU-0196 do
+need a browser. But chasing them turned up two entries that were on
+archive.org all along, behind spelling variants I had not tried.
+
+| ACU | Work | Source | What went wrong before |
+|---|---|---|---|
+| ACU-0164 | Les Merveilles de Rigomer | `lesmervellesderi01rigo` — Foerster 1908, Bd 19, **538pp, Band I = the Old French text**. Rigomer=156, Jehan=25. Band II at `lesmervellesderi02rigo` | **The very first search of this session** reported "no Band I scan on archive.org" and I accepted it. Only vol 02 had surfaced. A direct identifier probe found vol 01 immediately |
+| ACU-0190 | La Mule sans frein | `lamulesanzfrain00pa` — Hill 1911, 252pp. mule=199, frain=47, Gauvain=211, Keu=50. Second witness: Orlowski's 1911 edition as a BnF scan, `bnf-bpt6k6534707s` | Searched only for "Mule sans frein". Both 1911 editions are titled **"La mule sanz frain"** / "La damoisele à la mule". The earlier Méon lead was weak and its contents were never confirmed |
+
+### The pattern, stated plainly
+
+Across this session the same failure recurred: **I accepted a negative
+search result as evidence of absence.** Tyolet, Peiryan Vaban, ACU-0029,
+Giraldus vol 4, Rigomer Band I, the Mule — every one was present and found
+later under a different spelling, a different volume, or a direct probe.
+
+A negative archive.org title search means the title I typed is not indexed.
+It does not mean the text is unavailable. For medieval works, whose titles
+vary across editors, languages and centuries, that gap is wide.
+
+This is why the "remaining ~200" figure should be treated as an upper bound
+on what is missing, not a measurement.
