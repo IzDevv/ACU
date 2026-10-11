@@ -1,4 +1,5 @@
-# BATCH 4 - English-language entries, each opening read before inclusion.
+# BATCH 4 (REVISED) - supersedes the earlier BATCH4_CELL.py.
+# 14 English entries + 3 corrections to items batch 2 got wrong.
 # Handles Gutenberg-mirror items, which carry .txt but no PDF.
 DEST = '/content/drive/MyDrive/ACU_sources'
 
@@ -24,6 +25,9 @@ def fetch(url, path, tries=6):
     return False
 
 ITEMS = [
+ ('gale_rerum_anglicarum_1684_v3', 'rerumanglicarums03fulm', "ACU-0017 CORRECTION to batch 2, which fetched vol 1 (wrong). Vol 3 has 'Antiquitates Glaftonienfis Ecclefiae' - VERIFIED here. 874pp"),
+ ('kolbing_tristram_isodd_1878', 'dienordischeunddieenglis', "ACU-0460 CORRECTION to batch 2. That fetched Tristrams saga ok Isondar, a DIFFERENT work. Kolbing 1878 has 68 'Isodd' hits - VERIFIED here"),
+ ('demanda_santo_graal_reinhardstoettner_1887', 'historiadoscaval00reinuoft', "ACU-0506 CORRECTION to batch 2, whose scan had unusable OCR (0 hits for 'graal'). VERIFIED here: 1887, por, 192pp, PD, 69 Galaaz / 91 Graal / 64 Artur"),
  ('mabinogion_edwards_1890_welsh', 'mabinogionolyfrc00edwa', 'ACU-0078 Hanes Taliesin - VERIFIED here: Welsh, 1890, Ceridwen/Tegid Foel present. Supersedes the Wikisource page, which was only a transclusion wrapper'),
  ('fabliaux_recueil_t3_mantel', 'recueilgnral03montuoft', 'ACU-0176 Du Mantel mautaillie - VERIFIED here: contents p.57, text p.72, Montaiglon & Raynaud t.III'),
  ('heywood_life_of_merlin_1813', 'lifeofmerlinsurn00heyw', 'ACU-0324 Heywood, Life of Merlin surnamed Ambrosius, 348pp'),

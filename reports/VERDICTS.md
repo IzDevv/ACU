@@ -106,3 +106,20 @@ Cornwall (borrow-only `bwb_` scans only).
 Pa Gur, Ymddiddan Myrddin a Thaliesin, Afallennau, Oianau, Trioedd Ynys
 Prydein, Cyfoesi, Gwasgargerdd, Ystorya Trystan, Pedwar Marchog, Culhwch ac
 Olwen. These returned "no such page", not a fetch error.
+
+## Post-download verification of batch 2 (run against the delivered files)
+
+Batch 2 fetched 70 files with no failures. Verifying the four items tagged
+VERIFY, plus two whose text layer came back at 0.0 MB:
+
+| ACU | Verdict | Evidence |
+|---|---|---|
+| ACU-0410 Segremors | **confirmed** | 108 hits for `Segremors`, 70 for `Fragment`, 24 for `v. 1` (verse numbering) — the dissertation does print the fragments, not merely discuss them |
+| ACU-0317 Brittain's Ida | **confirmed** | 0.0 MB layer is simply a 39-page work; 22 `Brittain`, 10 `Ida`, title page reads "Written by that Renowned Poet, EDMOND SPENCER" |
+| ACU-0017 De Antiquitate | **WRONG VOLUME** | Gale vol 1 (fetched) has 4 incidental `Glafton` and no De Antiquitate. Vol 3 has 22 `Glafton`, 5 `Glaftonienf`, and the text "reliquit Antiquitates Glaftonienfis Ecclefiae". Corrected to `rerumanglicarums03fulm` |
+| ACU-0460 Saga af Tristram ok Ísodd | **WRONG WORK** | The fetched `rssagaaftristram00norduoft` is *Saga af Tristram ok Ísönd samt Möttuls saga* — the Norse *Tristrams saga ok Ísöndar*, a different text from the Icelandic *Saga af Tristram ok Ísodd*. Kölbing 1878 (`dienordischeunddieenglis`) carries 68 `Isodd` hits. Corrected |
+| ACU-0506 Demanda | **UNUSABLE OCR** | The fetched scan's text layer is 0.007 MB with **zero** hits for graal, besta, ladrador, Galaaz or cavaleiro; OCR output is noise. Replaced with Reinhardstoettner 1887 (`historiadoscaval00reinuoft`), 192pp, PD, verified 69 `Galaaz` / 91 `Graal` / 64 `Artur`, title page "A DEMANDA DO SANTO GRAALL" |
+
+Incidental find: Gale vol 2 contains the 1278 Glastonbury exhumation —
+"apud Glaftoniam, & ibi Dominus Rex tumbam Regis Arthuri" — which may serve
+ACU-0031 (Chronicon, Glastonbury exhumation entry), currently unresolved.
