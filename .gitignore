@@ -1,0 +1,15 @@
+# Downloaded source scans and their text layers live in sources/ and are
+# deliberately NOT tracked in git:
+#   - archive.org PDFs routinely exceed github.com's 100 MiB per-file block
+#   - binaries don't delta-compress, so every re-download bloats history forever
+#   - LFS bandwidth (10 GiB/mo on Free/Pro) is spent by each fresh clone, and
+#     cloud sessions clone fresh
+#   - the collection may include in-copyright editions; a repo makes you the
+#     redistributor
+#
+# What IS tracked: the catalog, the research register, the reports, the tools,
+# and reports/download_log.jsonl — which records, for every item fetched, its
+# archive.org identifier, title, creator, date, rights status, page count,
+# file sizes and the opening of its text layer. That is enough to reconstruct
+# the collection from scratch, and it diffs properly.
+sources/
