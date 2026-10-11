@@ -417,3 +417,60 @@ vary across editors, languages and centuries, that gap is wide.
 
 This is why the "remaining ~200" figure should be treated as an upper bound
 on what is missing, not a measurement.
+
+## Mechanical variant search — tried, and it does not work
+
+Having identified that every false negative came from searching one spelling,
+the obvious fix was to generate title variants automatically: accent
+stripping, medieval orthography swaps (v/u, c/k, y/i), dropped articles,
+alternates from parentheses and slashes.
+
+**Result: 30 entries searched, effectively zero real finds.**
+
+The failure is specific and instructive. Stripping a title down to its
+variants also strips its context, leaving generic phrases that match
+anything:
+
+| ACU | Variant generated | What it matched |
+|---|---|---|
+| ACU-0038 Gesta Arthuri (Glastonbury) | "Glastonbury" | Glastonbury **Festival** pass-outs, 1984–2022 |
+| ACU-0069 Tri Thlws ar Ddeg Ynys Prydain | "Thirteen Treasures" | Michelle Harrison's children's novel |
+| ACU-0100 Lorgaireacht an tSoidhigh Naomhtha | "Quest of the Holy Grail" | English translations of the *French* Queste |
+
+A strict post-filter — require a distinctive shared word, reject lending
+scans, reject post-1929 — cut 30 candidates to 2, and one of those two was
+still the children's novel.
+
+### What actually worked, and why it cannot be automated
+
+Every recovery today came from **knowing the edition history**, not from
+permuting strings:
+
+- *Mule sans frein* → both 1911 editions are titled **"La mule sanz frain"**.
+  No orthographic rule derives "sanz frain" from "sans frein" plus the
+  knowledge that Hill and Orlowski both edited it that year.
+- *Cyfoesi Myrddin* → Skene prints **"Kyuoessi Myrdin a Gwendyd y chOaer"**.
+  The `O` is an OCR artefact for `w`.
+- *Tyolet* → not a book at all, but an article inside **Romania vol. 8**.
+- *Gwasgargerdd* → the scanner read the running head as **"GWASGARGEED"**.
+- Gerald's *Speculum Ecclesiae* → **volume 4** of a set whose volumes 1, 3,
+  6 and 8 I had already handled.
+
+These are five different kinds of knowledge — editorial, orthographic,
+bibliographic, OCR-failure, and series structure. No single mechanical rule
+covers them, and a rule loose enough to catch them all returns festival
+tickets.
+
+### What this means for the remaining 191
+
+They will not fall to more automated searching. Two routes remain:
+
+1. **A browser**, for the public-domain material on hosts that block
+   automated access — Persée, Gallica, HathiTrust, Google Books, TEAMS.
+   Proven for ACU-0169 and ACU-0196.
+2. **Per-entry bibliographic work** — establishing, for each, which edition
+   exists and under what title. That is the method that produced today's
+   recoveries, and it is slow because it is genuinely per-entry.
+
+The 191 figure remains an upper bound on what is missing, not a count of
+what is unavailable.
