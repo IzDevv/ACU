@@ -189,3 +189,30 @@ Prompted to cast a wider net. Results, honestly:
 Still open in this language group: ACU-0431 (Lantsloot — DBNL states the 1987
 Gerritsen edition is copyright-protected and only scans exist), ACU-0445,
 ACU-0446, ACU-0447.
+
+## Old French: Romania and the 1928 lais edition
+
+| ACU | Work | Source | Evidence |
+|---|---|---|---|
+| ACU-0177 | Lai de Tyolet | `romania_1879_8` | **Corrects an earlier "failed access" verdict.** Romania vol 8 (1879), 646pp, carries Gaston Paris's "LAIS INEDITS DE TYOLET, DE GUINGAMOR, DE DOON, DU LECHEOR ET DE TYDOREL", pp. 29–72. 51 `Tyolet` hits. Earlier passes searched for the article, not the journal volume |
+| ACU-0179 | Doon, Tydorel (partial) | `romania_1879_8` | Same article: 25 `Doon`, 13 `Tydorel` |
+| ACU-0178 | Lai de Melion | `thelaysofdesiregraelentandmelion` | Grimes 1928, 162pp, "edition of the texts". 75 `Melion` |
+| ACU-0179 | Graelent (partial) | same | 77 `Graelent` |
+| ACU-0239 | Lai de Désiré (partial) | same | 20 `Desiré` |
+| ACU-0232 | Les Prophesies de Merlin | `lespropheciesdemerlinpatt2` | Paton 1927, edited from MS. **Caveat**: the catalog entry names the *printed* Prophesies; this is the manuscript edition. An incunable exists at `ita-bnc-in2-00001949-001` (1480) |
+
+With ACU-0179 now holding Guingamor, Tydorel, Doon and Graelent, only
+**l'Espine** of the five named in that entry is still missing.
+
+Note on method: the Romania find came from searching for the *journal
+volume* rather than the article. Persée has the article but 403s its PDF
+route, and its issue pages are JavaScript-rendered so curl sees an empty
+shell. archive.org had the whole volume as `romania_1879_8` the entire time.
+
+### Confirmed absent or borrow-only after a French-language pass
+
+ACU-0185 Yder · ACU-0196 Enfances Gauvain · ACU-0198 Roman de Silence ·
+ACU-0200 Tournoiement Antecrist · ACU-0144 Prose Joseph · ACU-0169 Donnei
+des amants — no archive.org candidate. ACU-0194 Gliglois exists only as
+borrow-only scans (`gliglois0000char` 1932, `leromandegligloi0000unse` 2003).
+ACU-0201 Roman du Hem: only an 1854 *analyse* (summary), not the text.
