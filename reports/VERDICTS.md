@@ -247,3 +247,25 @@ edited in 20th-century series still in copyright.
 
 **Italian**: ACU-0473, 0474, 0476, 0479, 0480, 0481, 0483, 0485, 0486,
 0487, 0493, 0495, 0496 produced no usable candidate.
+
+## Latin pass — the last unworked cluster, and it was productive
+
+| ACU | Work | Source | Evidence |
+|---|---|---|---|
+| ACU-0028 | De Principis Instructione | `giraldicambrensi08gira` | Rolls Series vol 8, 556pp. Principis=213, Instructione=154, Glaston=15 |
+| ACU-0029 | Speculum Ecclesiae | `giraldicambrensi04gira` | Rolls Series vol 4, 534pp. Speculum=140, Ecclesiae=22. **Corrects an earlier rejection**: the candidate I rightly refused was Nicolaus de Clemangis's identically-titled work; this is Gerald of Wales. Vol 4 did not surface in the title search but exists |
+| ACU-0030 | Itinerarium + Descriptio Kambriae | `giraldicambrensi06gira` | Rolls Series vol 6, 376pp. Itinerarium=38, Descriptio=93 |
+| ACU-0048 | Life of St Kentigern (Jocelin) | `livesofsniniansk00forb` | Forbes 1874, 510pp, PD. Kentigern=352, Jocelin=68 |
+| ACU-0049 | Lailoken and Kentigern / Lailoken and Meldred | same | Lailoken=5, Laloecen=2, Meldred=1 |
+| ACU-0037 | Narratio de Arturo Rege et Rege Gorlagon | `cu31924027098072` | Kittredge 1903, 146pp. Gorlagon=115, Arthur=157 |
+| ACU-0015 | Vita Sancti Dubricii | `liberlandavensi00reesgoog` | Liber Landavensis 1840, 707pp, PD, Latin. Dubricius=289 |
+
+### Checked and rejected
+
+**ACU-0010 / ACU-0011 (the two Vitae Gildae) are NOT in Mommsen**, which the
+collection already holds. Zero hits for "Vita Gildae", "Vitae Gildae",
+"Rhuys", "Ruys" or "Llancarfan" in `chronicaminorasa00momm`. Assuming
+otherwise would have been easy and wrong.
+
+Also no candidate: ACU-0046 Anglica Historia in Latin (the Camden Society
+English translation is held), ACU-0527 Questa del Sant Grasal.
