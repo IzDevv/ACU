@@ -216,3 +216,34 @@ ACU-0200 Tournoiement Antecrist · ACU-0144 Prose Joseph · ACU-0169 Donnei
 des amants — no archive.org candidate. ACU-0194 Gliglois exists only as
 borrow-only scans (`gliglois0000char` 1932, `leromandegligloi0000unse` 2003).
 ACU-0201 Roman du Hem: only an 1854 *analyse* (summary), not the text.
+
+## Italian and Norse pass
+
+| ACU | Work | Source | Evidence |
+|---|---|---|---|
+| ACU-0475 | Cantare di Gismirante | `064FioreDiLeggendeSi113` | Levi, *Fiore di Leggende: cantari antichi*, 1914. Prints "VII GISMIRANTE / PRIMO CANTARE" with the verse; 67 hits. Supersedes the Wikisource route, which was a transclusion wrapper |
+| ACU-0478 | Liombruno | same | "III LIOMBRUNO / CANTARE PRIMO"; 111 hits |
+| ACU-0461 | Tristrams kvæði | `slenzkfornkvi01littgoog` | *Íslenzk fornkvæði* 1854, 737pp, PD. Prints "23. Tristrams kvæði"; 18 hits plus 57 `Ísodd` |
+
+### Rejected on inspection
+
+- **ACU-0480 Cantare di Lasancis** — the Tavola Ritonda has 18 `Lasancis`
+  hits, but reading them shows a **character** ("messer Lasancis") and
+  editorial discussion of the name form, not the cantare. Not covered.
+- `cantaricavallere00bariuoft` (Barini 1905) — only one incidental `Febus`
+  hit; does not hold the target cantari.
+- `latavolaritondao01poliuoft` and `iltristanoricca00parogoog` are real
+  editions but answer ACU-0488 and ACU-0484, which are **already covered**.
+  Extra witnesses only.
+
+### Confirmed absent from archive.org
+
+**Norse rímur and late romances**: ACU-0454 Skikkjurímur, ACU-0467 Erex
+rímur, ACU-0468 Ívens rímur (Finnur Jónsson's *Riddararímur* is not there),
+ACU-0469 Samsons saga fagra, ACU-0470 Ectors saga, ACU-0471 Vilhjálms saga
+sjóðs. The prose sagas these derive from (ACU-0448–0453) are already
+covered; it is the verse adaptations that are missing, and they were mostly
+edited in 20th-century series still in copyright.
+
+**Italian**: ACU-0473, 0474, 0476, 0479, 0480, 0481, 0483, 0485, 0486,
+0487, 0493, 0495, 0496 produced no usable candidate.
