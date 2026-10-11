@@ -348,3 +348,47 @@ Three provenance labels are now used consistently across the collection:
 **manual transcription** (read from page images here), **existing editorial
 transcription** (Wikisource, CELT, maryjones.us), and **uncorrected OCR**
 (archive.org `_djvu.txt` layers).
+
+## CORRECTION: "copyright" was the wrong explanation for most of the remainder
+
+I repeatedly said the remaining ~200 entries were blocked by copyright.
+That conflated two different things and was mostly wrong.
+
+- The **works** are all public domain. No medieval text is in copyright.
+- A **modern critical edition** of one can be. That only blocks you when the
+  modern edition is the *only* edition.
+- For many entries there is a pre-1930 edition — and the real obstacle is
+  that **it has not been digitised on a host this container can reach.**
+
+Worked example. *Romania*, the journal where many Old French Arthurian texts
+were first printed:
+
+- archive.org holds **1872–1888 and 1920 onward**. Nothing for 1889–1919.
+- Persée holds **1872–2020**, the whole run.
+- The two volumes needed for ACU-0169 (vol 25, 1896) and ACU-0196 (vol 39,
+  1910) fall exactly in archive.org's gap, and exist on Persée.
+
+Both articles are free, open access, and over a century old. Persée simply
+403s automated PDF requests from this container. A browser gets them.
+
+| ACU | Work | Where it actually is |
+|---|---|---|
+| ACU-0169 | Donnei des Amants (Tristan Rossignol episode) | Gaston Paris, *Romania* 25 (1896) 497–541 — https://www.persee.fr/doc/roma_0035-8029_1896_num_25_100_5472 |
+| ACU-0196 | Les Enfances Gauvain | Paul Meyer, *Romania* 39 (1910) 1–32 — https://www.persee.fr/doc/roma_0035-8029_1910_num_39_153_5096 |
+
+So the honest categories for what remains are:
+
+1. **Public domain, digitised, but only on a host that blocks us** — Persée,
+   Gallica, HathiTrust, Google Books, TEAMS. Recoverable by a person with a
+   browser. The two above are proven cases.
+2. **Public domain but never digitised anywhere** — chiefly older journal
+   runs and minor society publications.
+3. **Only ever edited in a modern edition** — genuinely rights-restricted,
+   e.g. the Norse rímur in 20th-century series.
+4. **Never edited at all; manuscript only.**
+5. **Lost** — 9 entries.
+
+I had been collapsing all five into category 3. Category 1 in particular is
+not a dead end: it needs a browser, not a library card. The size of each
+category has not been measured, and claiming one without measuring it is
+what produced the original error.
