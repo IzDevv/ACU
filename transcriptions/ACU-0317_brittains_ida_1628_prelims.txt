@@ -1,5 +1,11 @@
 # ACU-0317 — Brittain's Ida (1628), preliminaries
 #
+# *** STATUS: SAMPLE ONLY — NOT COVERAGE. ***
+# 3 pages of 39. The poem itself is NOT transcribed and will not be.
+# Hand transcription was abandoned as too slow per page to be worth it at
+# this scale. Kept only as a worked demonstration of the method and of how
+# far the OCR for this item diverges from the page.
+#
 # PROVENANCE: MANUAL TRANSCRIPTION, made by reading the page images of the
 # scan directly. This is NOT OCR and NOT an existing editorial transcription.
 # The archive.org OCR layer for this item is unusable (0.029 MB for 39 pages,
