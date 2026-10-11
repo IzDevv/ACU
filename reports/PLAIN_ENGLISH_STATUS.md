@@ -12,9 +12,11 @@ in English translation.
 ## What happened today
 
 You started with **267 of 543** having some file attached.
+You now have **326**.
 
-Today added roughly **50 more** works, and found **2 you already had
-without realising it**.
+Today added **59 works that had nothing before**, and supplied the
+**original language for 26 more** that you'd only had in English
+translation. It also found **2 you already had without realising it**.
 
 **Correction.** I first told you that was five. It was two. I checked five
 Welsh poems against a book you already own, *The Four Ancient Books of
@@ -58,7 +60,8 @@ your attention:
 
 ## What is still missing
 
-About **190** of the 543 entries still have nothing. Honestly, many never
+**208** of the 543 entries still have nothing, and **10** exist only as
+English translations. Honestly, many never
 will — they survive only in manuscripts that were never photographed, or in
 modern scholarly editions still under copyright. The previous research in
 your register was broadly right that most of these are dead ends.
