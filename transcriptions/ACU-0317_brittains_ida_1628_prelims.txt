@@ -1,0 +1,95 @@
+# ACU-0317 — Brittain's Ida (1628), preliminaries
+#
+# PROVENANCE: MANUAL TRANSCRIPTION, made by reading the page images of the
+# scan directly. This is NOT OCR and NOT an existing editorial transcription.
+# The archive.org OCR layer for this item is unusable (0.029 MB for 39 pages,
+# and badly corrupt — it renders "Edmond Spencer" as "EDpwonD SeuncaR" and
+# "Brittaines Burse. 1628" as "Brittames Banſe. I 648").
+#
+# Source scan: archive.org item
+#   bim_early-english-books-1475-1640_brittains-ida_fletcher-giles-the-you_1628
+# Edition: Brittain's Ida, London, printed for Thomas Walkley, 1628.
+#   Attributed on the title page to Edmund Spenser; modern scholarship assigns
+#   it to Giles Fletcher the Younger, as the archive.org record's filename
+#   itself indicates.
+# Pages transcribed: PDF images 3–5 (signature A2v–A4r region; the leaves are
+#   unnumbered).
+# Transcribed: 2026-10-11
+#
+# CONVENTIONS
+#   ſ   retained as printed (long s)
+#   u/v and i/j retained as printed, not normalised
+#   [ ]  editorial supply or comment
+#   Line breaks follow the printed lines.
+#   Decorated initial capitals are given as ordinary capitals and noted.
+
+=============== [PDF page 3] — dedication ===============
+
+TO THE RIGHT
+Noble Lady. MARY,
+Daughter to the moſt Illuſtri-
+ous Prince GEORGE, Duke
+of Buckingham.
+
+[decorated initial M]
+            OST NOBLE LADY:
+            I haue preſumed to preſent
+            this little Poëm to your
+            Honourable hand, encou-
+            raged onely by the worth of
+the Famous Author (for I am certainely
+aſſured by the ableſt., and moſt knowing   [sic: stop after "ableſt"]
+men, that it muſt be a Worke of Spencers,
+of whom it were pitty that any thing
+                A 3        ſhould
+
+=============== [PDF page 4] — "The Epiſtle" ===============
+
+The Epiſtle.
+
+ſhould bee loſt ) and doubting not but
+your Lady-ſhip will graciouſly accept,
+though from a meane hand, this humble
+preſent, ſince the man that offers it, is
+a true Honourer and Obſeruer of.          [sic: stop after "of"]
+your Selfe, and your Princely
+Family, and ſhall euer
+remaine
+
+The humbleſt of your
+deuoted Seruants.
+
+Thomas Walkley.
+
+=============== [PDF page 5] — epigraph and opening ===============
+
+Martial.
+
+Accipe facundi culicem ſtudioſe
+   Maronis,
+   Ne nugis poſitis, arma virumque
+Canas
+
+[decorated initial S]
+      EE here that ſtately Muſe, that erſt
+            could raiſe,
+      In laſting numbers great Elizaes
+            praiſe,
+And dreſſe faire Vertue in ſo rich
+      attire,
+That euen her Foes were forced to
+      admire,
+                                    And
+
+=============== end of transcribed extent ===============
+
+# NOTE ON EXTENT: only the three preliminary pages above were transcribed.
+# The poem itself (roughly PDF pages 6–39) has NOT been transcribed. The
+# scan is legible throughout, so the remainder can be done the same way if
+# wanted.
+#
+# NOTE ON ATTRIBUTION: the 1628 title page credits "that Renowned Poet,
+# EDMOND SPENCER", and Walkley's epistle argues the case ("it muſt be a
+# Worke of Spencers"). The attribution is not accepted today. Catalogue the
+# witness as printed, with the attribution recorded as the print's claim
+# rather than as fact.

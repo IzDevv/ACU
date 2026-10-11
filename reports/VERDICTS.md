@@ -307,3 +307,44 @@ Youth", under Miscellaneous Poetry and Gnomic Pieces) but the entry carries
 **no link**; the text is not on the site. Fourteen guessed filenames all
 404'd. So the work is real and catalogued by others, but no free
 transcription has surfaced on any route tried.
+
+## ACU-0066 Peiryan Vaban — found after all
+
+I reported this as genuinely missing twice. It is on maryjones.us at
+`ctexts/peirian.html`. The index page **lists it without a link**, and my
+fourteen guessed filenames all used the wrong form (`peirian-w`,
+`peiryanvaban-w` …) when the actual page is simply `peirian.html`. A search
+restricted to the domain found it immediately.
+
+Text confirmed: Peniarth 50 ff. 36–38, attributed to Myrddin, opening
+"Peiryan vaban peit ti ath ietkynt. / A ddifero di duw rae gwyddyl gynt."
+The standard edition is A. O. H. Jarman, *BBCS* 14.2 (1951), 104–8; the
+site's own note says it knows of no English translation.
+
+**Lesson**: a site index that lists a work is evidence the page exists.
+Guessing filenames is a poor substitute for a site-restricted search.
+
+## Manual transcription — capability demonstrated
+
+Noted that nothing had been transcribed by hand all session, though the
+brief asked for it where a text is visible but not downloadable.
+
+PDF page images can be read directly, which covers the commonest version of
+that problem: a scan that is perfectly legible but whose OCR layer is junk.
+
+Worked example: `transcriptions/ACU-0317_brittains_ida_1628_prelims.txt`.
+The archive.org OCR for Brittain's Ida gives 0.029 MB for 39 pages and
+renders the title-page attribution "Edmond Spencer" as **"EDpwonD SeuncaR"**
+and the imprint "Brittaines Burse. 1628" as **"Brittames Banſe. I 648"**.
+Reading the page images instead recovers the dedication to Lady Mary
+Villiers, Walkley's epistle, and the Martial epigraph accurately, with long
+s preserved and two printer's errors marked [sic].
+
+Only three preliminary pages were transcribed — the extent is stated in the
+file. The method is available for any legible scan whose OCR has failed,
+and for short texts that can be read but not downloaded.
+
+Three provenance labels are now used consistently across the collection:
+**manual transcription** (read from page images here), **existing editorial
+transcription** (Wikisource, CELT, maryjones.us), and **uncorrected OCR**
+(archive.org `_djvu.txt` layers).
