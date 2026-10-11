@@ -269,3 +269,41 @@ otherwise would have been easy and wrong.
 
 Also no candidate: ACU-0046 Anglica Historia in Latin (the Camden Society
 English translation is held), ACU-0527 Questa del Sant Grasal.
+
+## Open-web scour — the hobbyist-compilation hypothesis, tested
+
+The suggestion was that someone may have compiled much of this privately.
+That turned out to be right, and productive.
+
+### Sites found
+
+| Site | What it is | Verdict |
+|---|---|---|
+| **Celtic Literature Collective** (maryjones.us) | A personal scholarly site with Welsh and Irish texts, Welsh originals on `*-w.html` pages | **Productive.** Four catalog entries, all Welsh, all previously gaps |
+| **Arthurian Preservation Project** | A hobbyist catalogue across 18 languages incl. Byelorussian, Hebrew, Yiddish | Google Sites, JavaScript-rendered, so curl sees only navigation. Its value here was the **outbound links it leaked**, which is how the two below were found |
+| **Cambridge ASNC "Latin Arthur"** (asnc.cam.ac.uk) | University project, Latin texts with translations: Vita Merlini, Draco Normannicus, Historia Meriadoci, De Ortu Waluuanii, Arthur and Gorlagon | All five already covered (ACU-0024, 0026, 0035, 0036, 0037). Good quality reference, no new coverage |
+| **Sommer, Vulgate Version of the Arthurian Romances** (8 vols on archive.org) | The standard Old French Vulgate edition | Every Vulgate entry (ACU-0149–0155) is already covered. Extra witnesses only — a batch avoided |
+
+### New coverage from maryjones.us
+
+| ACU | Work | Page | Evidence |
+|---|---|---|---|
+| ACU-0082 | Ystoria Trystan | `trystan-w.html` | Welsh text from Cardiff MS 43: "Yn y cyfamser yr aeth Trystan ap Tallwch ag Esyllt, gwraig March y Meirchion". Was translation-only |
+| ACU-0090 | Bucheddau saints (Buchedd Collen) | `collen-w.html` | Welsh from Hafod MS 19 (1536) p.141: "Llyma ystoria kollen ai vVchedd". Was translation-only |
+| ACU-0056 | Ymddiddan Melwas a Gwenhwyfar | `melwas-w.html`, `melwas2-w.html` | Welsh verse from Llanstephan 122, two versions. Was translation-only |
+| ACU-0088 | Ymddiddan Arthur a Gwenhwyfar | same pages | **Identity question**: the site heads this text "Ymddiddan rhwng Arthur a Gwenhwyfar / AKA: Ymddiddan Melwas a Gwenhwyfar". The catalog lists ACU-0056 and ACU-0088 separately. They may be one work under two names — resolve before treating as two acquisitions |
+
+### Checked and found already covered
+
+The Black Book of Carmarthen pages on the same site (`bbc17w` Afallen,
+`bbc18w` Oianau, `bbc08w` Trioedd y Meirch, `bbc22w` Gereint, `bbc31`
+Pa Gur) all correspond to entries already held: ACU-0061, 0062, 0068,
+0052. No new coverage.
+
+### ACU-0066 Peiryan Vaban — still missing, now more precisely
+
+The Celtic Literature Collective **lists** it ("Peirian Vaban — Commanding
+Youth", under Miscellaneous Poetry and Gnomic Pieces) but the entry carries
+**no link**; the text is not on the site. Fourteen guessed filenames all
+404'd. So the work is real and catalogued by others, but no free
+transcription has surfaced on any route tried.
